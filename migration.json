@@ -1,0 +1,183 @@
+{
+  "activity": {
+    "oldCollectionName": "activities",
+    "propertyNames": {
+      "author": "authorId",
+      "article": "articleId",
+      "active": "isActive",
+      "deck": "deckId"
+    }
+  },
+
+  "article" : {
+    "oldCollectionName": "articles",
+    "propertyNames": {
+      "active": "isActive",
+      "author": "authorId",
+      "comments": "oldComments",
+      "featured": "isFeatured",
+      "photos": "photoNames",
+      "related": "oldRelatedArticles",
+      "theme": "themeName",
+      "views": "viewCount",
+      "votesCount": "voteScore",
+      "deck": "deckId"
+    }
+  },
+
+  "banner" : {
+    "oldCollectionName": "banners",
+    "propertyNames": {
+      "photo": "photoName",
+      "active": "isActive"
+    }
+  },
+
+  "card" : {
+    "oldCollectionName": "cards",
+    "propertyNames": {
+      "active": "isActive",
+      "photos": "photoNames",
+      "id": "hearthstoneId"
+    }
+  },
+
+  "comment" : {
+    "oldCollectionName": "comments",
+    "propertyNames": {
+      "author": "authorId",
+      "comment": "text",
+      "replies": "oldReplies",
+      "votesCount": "votesScore"
+    }
+  },
+
+  "deck" : {
+    "oldCollectionName": "decks",
+    "propertyNames": {
+      "author": "authorId",
+      "cards": "oldCards",
+      "comments": "oldComments",
+      "featured": "isFeatured",
+      "mulligans": "oldMulligans",
+      "public": "isPublic",
+      "views": "viewCount",
+      "votesCount": "voteScore"
+    }
+  },
+
+  "forumCategory" : {
+    "oldCollectionName": "forumcategories",
+    "propertyNames": {
+      "active": "isActive",
+      "threads": "oldThreads"
+    }
+  },
+
+  "forumPost" : {
+    "oldCollectionName": "forumposts",
+    "propertyNames": {
+      "author": "authorId",
+      "active": "isActive",
+      "votesCount": "voteScore",
+      "views": "viewCount",
+      "comments": "oldComments"
+    }
+  },
+
+  "forumThread" : {
+    "oldCollectionName": "forumthreads",
+    "propertyNames": {
+      "active": "isActive",
+      "posts": "oldPosts"
+    }
+  },
+
+  "guide" : {
+    "oldCollectionName": "guides",
+    "propertyNames": {
+      "author": "authorId",
+      "comments": "oldComments",
+      "featured": "isFeatured",
+      "heroes": "oldHeroes",
+      "maps": "oldMaps",
+      "public": "isPublic",
+      "video": "youtubeId",
+      "views": "viewCount",
+      "votesCount": "voteScore"
+    }
+  },
+
+  "hero" : {
+    "oldCollectionName": "heros",
+    "propertyNames": {
+      "active": "isActive",
+      "talents": "oldTalents",
+      "abilities": "oldAbilities"
+    }
+  },
+
+  "map" : {
+    "oldCollectionName": "maps",
+    "propertyNames": {
+      "active": "isActive"
+    }
+  },
+
+  "poll" : {
+    "oldCollectionName": "polls",
+    "propertyNames": {
+      "subTitle": "subtitle",
+      "photos": "photoNames",
+      "items": "oldItems",
+      "view": "viewType",
+      "type": "pollType"
+    }
+  },
+
+  "snapshot" : {
+    "oldCollectionName": "snapshots",
+    "propertyNames": {
+      "active": "isActive",
+      "votesCount": "voteScore",
+      "comments": "oldComments",
+      "photos": "photoNames",
+      "matches": "oldMatches",
+      "authors": "oldAuthors"
+    }
+  },
+
+  "teamMember" : {
+    "oldCollectionName": "teammembers",
+    "propertyNames": {
+      "photo": "photoName",
+      "active": "isActive"
+    }
+  },
+
+  "user" : {
+    "oldCollectionName": "users",
+    "propertyNames": {
+      "active": "isActive",
+      "verified": "emailVerified"
+    }
+  },
+
+  "vod" : {
+    "oldCollectionName": "vods",
+    "propertyNames": {
+      "url": "youtubeId",
+      "subTitle": "subtitle",
+      "date": "displayDate",
+      "vars": "youtubeVars"
+    }
+  },
+
+  "overwatchHero" : {
+    "oldCollectionName": "overwatchheros"
+  },
+
+  "overwatchAbility" : {
+    "oldCollectionName": "overwatchabilities"
+  }
+}
